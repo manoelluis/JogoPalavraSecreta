@@ -46,7 +46,17 @@ function App() {
   const startGame = () => {
     const { word, category } = pickWordAndCategory();
 
+    //CRIAR UM ARRAY DE LETRAS
+    let wordLetters = word.split("");
+    wordLetters = wordLetters.map((l) => l.toLowerCase());
+
     console.log(word, category);
+    console.log(wordLetters);
+
+    //FILL STATES
+    setPickedWord(word);
+    setPickedCategory(category);
+    setLetters(letters);
 
     setGameStage(stages[1].name);
   };
