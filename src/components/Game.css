@@ -21,7 +21,18 @@
     padding: 5px;
     background-color: #8b06d8;
     color: rgb(255, 255, 255);
+}
 
+.tenteAdivinhar {
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: rgba(137, 43, 226, 0.6);
+}
+
+.numeroTentativa {
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: rgba(137, 43, 226, 0.6);
 }
 
 .wordContainer {
